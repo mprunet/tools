@@ -45,6 +45,7 @@ function cidrToRegexp($cidrIn, $debug=false) {
     if ($debug) {
         echo "REGEXP : ".$regexp.PHP_EOL;
     }
+    return $regexp;
 } 
 
 function computeRegexp($min, $max, $tour=0) {
